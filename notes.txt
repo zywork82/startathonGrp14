@@ -1,0 +1,4 @@
+First button shld be Plug in your device (disabled) when usb detected then switch to customise device
+
+need to do the add panel and trigger
+swithc left right button to device 2

@@ -1,0 +1,181 @@
+.home {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    margin: 0; /* Remove margin from the body */
+  }
+  .headerContainer {
+    width: auto;
+    margin-left: 50px;
+  }
+  
+  .welcomeHeader {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .headerContainer h2 {
+    font-size: 40px;
+    height: 30px;
+    color: black;
+  }
+
+ .changingImage {
+    display:flex;
+    justify-content: center;
+  }
+
+  .mainButton {
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+
+  }
+  .photos {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* .headerContainer p {
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+  } */
+  
+  .headerContainer button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #FAAF90;
+    height: 65px;
+    width: 450px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  
+  .headerContainer button:hover {
+    background-color: #8BABF1;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+
+  .selectedFunctions {
+    display: grid;
+    gap: 170px; /* Adjust the gap between items */
+    row-gap: 610px; /* Adjust the vertical gap between rows */
+    column-gap: 115px; /* Adjust the horizontal gap between columns */
+    position: absolute;
+    top: 63.5%;
+    left: 52%;
+    transform: translate(-50%, -70%);
+    z-index: 1; /* Ensure the grid is above the changing image */
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .firstRow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for the first row */
+    width: 670px;
+    gap: 0px; /* Adjust the gap between items */
+    margin-bottom: 120px;
+  }
+  
+  .secondRow {
+    display: grid;
+    justify-content: space-between;
+    width: 1000px;
+    grid-template-columns: repeat(3, 1fr); /* Three columns for the second row */
+
+  }
+  
+  .functionItem {
+    border:none;
+    padding: 10px;
+    text-align: start;
+
+  }
+  .functionName {
+    /* Add styles for the function name */
+    background-color: #FAAF90; /* For example, change the text color to blue */
+    color: black;
+    padding: 5px;
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  
+  
+
+  
+  @media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .photo{
+      padding-top: 5px;
+      padding-bottom: 10px;
+      padding-top: 20px;
+      padding-top: 20px;
+      width: 200%;
+      display: flex;
+      justify-content: center;
+      align-items: center;  width: 200%;
+    }
+
+    .changingImage {
+      display:flex;
+      justify-content: center;
+    }
+  
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+    }
+  
+    .headerContainer h2 {
+      font-size: 30px;
+      height: 0px;
+      color: black;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+      color: black;
+    }
+  
+    .headerContainer button {
+      background-color: #FAAF90;
+      color: white;
+      margin-bottom: 30px;
+    }
+  
+    .headerContainer button:hover {
+      background-color: rgb(225, 225, 225);
+      color: #121619;
+    }
+  }

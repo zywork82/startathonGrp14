@@ -1,0 +1,40 @@
+.help-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .help-page h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .help-page h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .help-page p {
+    margin-bottom: 15px;
+  }
+  
+  .help-page ul {
+    margin-bottom: 15px;
+  }
+  
+  .help-page li {
+    margin-bottom: 5px;
+  }
+  
+  .help-page a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .help-page a:hover {
+    text-decoration: underline;
+  }
+  
